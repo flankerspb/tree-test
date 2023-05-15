@@ -1,0 +1,22 @@
+{
+  "name": "flankerspb/tree-test",
+  "type": "project",
+  "description": "it-dominanta.ru test",
+  "homepage": "https://github.com/flankerspb/tree-test",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Vitaliy Moskalyuk",
+      "email": "flanker@bk.ru"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "fl\\tree\\": "src"
+    }
+  }
+}
