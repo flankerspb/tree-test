@@ -50,7 +50,7 @@ class CategoryTree implements JsonSerializable
 
         fclose($handle);
 
-        // если список категорий всегда будет отсортирован по parent_id, то можно запихивать в while
+        // если список категорий будет содержать livel и будет отсортирован по нему, то можно запихивать в while
         foreach ($this->items as $item)
         {
             if ($item->parent_id)
